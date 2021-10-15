@@ -2,36 +2,42 @@
 <html>
   <head>  
 		<title>  My portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+   
     </head>
     
     <body>
         <header>
-      <h1> Welcome to my Portfolio </h1>
-      <ol type="I">
-        <li><a href="#Home">home </a></li>
+          <nav >
+            <h1 class="style-1"> Welcome to my Portfolio</h1>
+      <ol  >
+        <li class="color"><a href="#Home" >Home </a></li>
           <li><a href="#About">About </a></li>
           <li><a href="#Skills ">Skills</a></li>
-          <li><a href="#resume ">resume</a></li>
-          <li><a href="#contact ">contact</a></li>  
+          <li><a href="#Resume ">Resume</a></li>
+          <li><a href="#Contact ">Contact</a></li>  
       </ol>
-      	</header>
+      </nav>
+      	</header> 
+
      <main>
 		    <section>
+          
           <a name="Home" ></a>
-          <h1> Welcome to my portfolio</h1>
-          
-           <img src="https://gomycodelearndev.blob.core.windows.net/profiles/248b8d07-28c8-4029-a0ca-0422fba18a91-132770500118525990.jpg" width="300" length="250" ><br>
-        
-          <p> 
-                        My name is Abdelaziz Mami
+          <div style="text-align: center;">
+           <img  src="https://gomycodelearndev.blob.core.windows.net/profiles/248b8d07-28c8-4029-a0ca-0422fba18a91-132770500118525990.jpg" width="350" length="200" >
+        </div>
+        <div>
+          <p style="text-align: center; border:1px solid red  "> 
+            My name is Abdelaziz Mami <br>
             I'm an ingeneering student who's working on his career,
-           a beginner in web development and an ambitious human being  </p>
-          
+           a beginner in web development and an ambitious human being .
+           </p></div>
         </section>
        
        <section>
        <a name="About" ></a>
-     <h1>A genaral idea about me</h1>
+     <h1 class="style-2">A general idea about me</h1>
        <p> To be honest, I was a typical regular student who only cared about studying without thinking about the future, 
          but my idea soon changed and I started thinking about my personal career, especially after analyzing the experiences of other young people and the situation of the country and employment.
           That's why I'm trying to work on myself.  </p>
@@ -39,41 +45,50 @@
           for now i'm working on my language skills especially in english and german
           in addition to a web development training since I have heard a lot about
           the efficasity of this field nowadays and the The evolution of the world of technology and information.
-          <h3>This is one of the videos that encouraged me to learn the web development </h3>
-          
-          <iframe width="460"
+          </p>
+          <h3 style="color: cadetblue; text-align: center; ">This is one of the videos that encouraged me to learn the web development </h3>
+          <div style="text-align: center;">
+          <iframe 
+           width="460" 
            height="315" 
            src="https://www.youtube.com/embed/JguKLogoGMk?start=1" 
            title="YouTube video player"
             frameborder="0" 
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-            allowfullscreen></iframe>
-           </p>
+            allowfullscreen>
+           </iframe>
+           </div>
       </section>
-<section>
+
+<section >
        <a name="Skills" ></a>
-       <table border="1">
-         <tr>
-           <th>My Skills</th>
-         </tr>
-         <tr>
+       
+       <table>
+          <tr >
+             <th style="color:blue"> My Skills</th>
+          </tr>
+          
+          <tr>
            <td>
-       <ul type="squar">
-         <li>Fast learner</li>
-         <li>High motivation and adaptability</li>
-         <li>Familiar in the technical and IT sector</li>
-         <li>Punctuality</li>
-         <li>Well organized</li>
-         <li>Fun in the context of teamwork </li>
-       </ul>
-       </td>
-       </tr>
+              <ul type="squar" ; >
+                  <li >Fast learner</li>
+                  <li>High motivation and adaptability</li>
+                  <li>Familiar in the technical and IT sector</li>
+                  <li>Punctuality</li>
+                  <li>Well organized</li>
+                  <li>Fun in the context of teamwork </li>
+               </ul>
+           </td>
+         </tr>
+
       </table>
-</section> 
+</section>
+
 <section>
-  <a name="resume" ></a>
-  <h1>summary</h1>
-  <p>
+  <a name="Resume" ></a>
+  <h1 class="style-2">summary</h1>
+  
+  <p style="text-align: center;">
  this this my portfolio, a general idea about me ,about my plans and my personalities and qualifications.
  To be honest, I'm not satisfied with what I have just achieved because I have bigger dreams and certain goels that I'm 
  going to work on in the future.
@@ -81,18 +96,19 @@
 </section>
 
 <section>
-  <a name="contact" ></a>
-  <h1>Enter your own contacts</h1>
+  <a name="Contact" ></a>
+  <h1  class="style-2">Enter your own contacts</h1>
   <form>
-    <ol type="1">
+    <ol type="1" >
     <li>Name <input type="text" name="name"></li>
-    <li>birth date <input type="" name="birth"></li>
+    <li>birth date <input type="date" name="birth"></li>
     <li>Mail Adress<input type="mail" name="mail"></li>
     <li>Phone number<input type="tel" name="phone_number"></li>
   </form>
    </ol>
-  <button type="submit">submit</button>
- 
+   
+  <button type="submit"  >submit</button>
+
 </section>
 
    
